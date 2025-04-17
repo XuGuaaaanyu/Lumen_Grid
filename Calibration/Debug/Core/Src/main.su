@@ -1,0 +1,31 @@
+../Core/Inc/Arduino_Wrapper.h:17:6:void println(const char*)	16	static
+../Core/Inc/Arduino_Wrapper.h:21:6:void delayMicroseconds(uint32_t)	24	static
+../Core/Inc/Pixy2UART.h:32:7:void Link2UART::close()	16	static
+../Core/Inc/Pixy2UART.h:35:10:int16_t Link2UART::recv(uint8_t*, uint8_t, uint16_t*)	32	static
+../Core/Inc/Pixy2UART.h:55:10:int16_t Link2UART::send(uint8_t*, uint8_t)	24	static
+../Core/Src/main.cpp:94:5:int main()	56	static
+../Core/Src/main.cpp:207:6:void SystemClock_Config()	96	static
+../Core/Src/main.cpp:252:13:void MX_LPUART1_UART_Init()	8	static
+../Core/Src/main.cpp:300:13:void MX_USART3_UART_Init()	8	static
+../Core/Src/main.cpp:348:13:void MX_SPI1_Init()	8	static
+../Core/Src/main.cpp:388:13:void MX_GPIO_Init()	56	static
+../Core/Src/main.cpp:461:1:int __io_putchar(int)	16	static
+../Core/Src/main.cpp:466:6:void DWT_Init()	4	static
+../Core/Src/main.cpp:472:6:bool is_button_pressed()	16	static
+../Core/Src/main.cpp:493:6:void APA102_SendFrame()	24	static
+../Core/Src/main.cpp:511:6:void set_led(int, uint8_t, uint8_t, uint8_t, uint8_t)	16	static
+../Core/Src/main.cpp:520:6:void clear_leds()	24	static
+../Core/Src/main.cpp:531:6:void Error_Handler()	4	static,ignoring_inline_asm
+../Core/Inc/TPixy2.h:125:1:TPixy2<LinkType>::TPixy2() [with LinkType = Link2UART]	16	static
+../Core/Inc/Pixy2CCC.h:104:8:int8_t Pixy2CCC<LinkType>::getBlocks(bool, uint8_t, uint8_t) [with LinkType = Link2UART]	16	static
+../Core/Inc/Pixy2CCC.h:89:3:Pixy2CCC<LinkType>::Pixy2CCC(TPixy2<LinkType>*) [with LinkType = Link2UART]	16	static
+../Core/Inc/Pixy2Line.h:113:2:Pixy2Line<LinkType>::Pixy2Line(TPixy2<LinkType>*) [with LinkType = Link2UART]	16	static
+../Core/Inc/Pixy2Video.h:33:3:Pixy2Video<LinkType>::Pixy2Video(TPixy2<LinkType>*) [with LinkType = Link2UART]	16	static
+../Core/Inc/TPixy2.h:249:9:int16_t TPixy2<LinkType>::sendPacket() [with LinkType = Link2UART]	16	static
+../Core/Inc/TPixy2.h:205:34:int16_t TPixy2<LinkType>::recvPacket() [with LinkType = Link2UART]	24	static
+../Core/Inc/TPixy2.h:165:34:int16_t TPixy2<LinkType>::getSync() [with LinkType = Link2UART]	32	static
+../Core/Src/main.cpp:539:1:void __static_initialization_and_destruction_0()	8	static
+../Core/Src/main.cpp:539:1:void __static_initialization_and_destruction_1()	8	static
+../Core/Inc/TPixy2.h:136:1:TPixy2<LinkType>::~TPixy2() [with LinkType = Link2UART]	16	static
+../Core/Src/main.cpp:539:1:cpp)	8	static
+../Core/Src/main.cpp:539:1:cpp)	8	static
