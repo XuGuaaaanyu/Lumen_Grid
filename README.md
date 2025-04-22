@@ -19,7 +19,7 @@
 - **Piezoresistor**: Emergency stop trigger.  
 - **Bluetooth (HC-05)**: Transmits control signals.  
 - **Micro Vibrator**: Haptic feedback for velocity.  
-![cad](https://github.com/user-attachments/assets/1e9318b9-b89d-4b28-9eae-7cae91b07c99)
+![cad](https://github.com/user-attachments/assets/2f2345de-ff33-487f-ae92-95de54f677c7)
 
 ### Zumo Car System (NUCLEO-L432KC)  
 - **IMU (GY-511)**: Measures yaw for PID-based motion control.  
