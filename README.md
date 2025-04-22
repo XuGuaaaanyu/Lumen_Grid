@@ -69,4 +69,4 @@
 
 2. **Software Dependencies**  
    - STM32 HAL libraries for microcontroller programming.  
-   - PixyCam Open Source Library (modified for STM usage) source at https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:arduino_api 
+   - PixyCam Open Source Library (modified for STM usage) source at https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:arduino_api
