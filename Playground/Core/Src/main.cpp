@@ -182,6 +182,7 @@ int main(void)
 				/* If timeout or all spots are occupied, end this run */
 				if (HAL_GetTick() - run_start_time > RUN_TIMEOUT
 						|| playground.is_all_occupied()) {
+					HAL_Delay(500);
 					game_state = END_RUN;
 				}
 
@@ -195,11 +196,13 @@ int main(void)
 				if (num_run >= NUM_RUNS) {
 					playground.display_result();
 					game_state = INIT;
+					HAL_Delay(5000);
 
 				} else {
 					game_state = START_RUN;
+					HAL_Delay(100);
 				}
-				HAL_Delay(5000);
+
 				break;
 			}
 			default:

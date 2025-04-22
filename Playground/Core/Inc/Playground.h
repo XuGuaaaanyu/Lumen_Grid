@@ -109,7 +109,7 @@ public:
 class Playground {
 	ParkingSpot parking_spots[NUM_LEDS];
 	APA102_LED leds[NUM_LEDS];
-	APA102_LED decoration[NUM_DECORATION_LEDS];
+	//APA102_LED decoration[NUM_DECORATION_LEDS];
 	int scores[NUM_CARS];
 	uint8_t num_occupied;
 
@@ -141,6 +141,9 @@ public:
 			set_led(yellow[i], color[3][0], color[3][1], color[3][2], 15);
 			APA102_SendFrame();
 			HAL_Delay(200);
+		}
+		for (int i = 0; i < NUM_CARS; i++){
+			scores[i] = 0;
 		}
 		//clear_leds();
 		//APA102_SendFrame();
