@@ -5,11 +5,11 @@
 ---
 
 ## Key Features  
-- **Multi-Robot Competition**: Four Zumo robots compete to park in dynamically generated spots.  
+- **Multi-Robot Competition**: Four Zumo robots compete to occupy 10 randomly generated spots in each round.  
 - **Vision-Based Localization**: PixyCam tracks robot positions via unique color tags.  
 - **Gesture-Based Control**: IMU-driven remote controllers for intuitive robot steering.  
-- **Real-Time Feedback**: Dynamic LED indicators for parking spots, haptic vibration alerts, and OLED status displays.  
-- **Modular Architecture**: Built with STM32 microcontrollers for scalability and integration.  
+- **Real-Time Feedback**: Dynamic LED indicators for parking spots, haptic vibration feedback, and OLED status displays.  
+- **Modular Architecture**: Built with STM32 NUCLEO microcontrollers for scalability and integration.  
 
 ---
 
@@ -18,7 +18,8 @@
 - **IMU (GY-511)**: Measures pitch/roll for gesture input.  
 - **Piezoresistor**: Emergency stop trigger.  
 - **Bluetooth (HC-05)**: Transmits control signals.  
-- **Micro Vibrator**: Haptic feedback for collisions/errors.  
+- **Micro Vibrator**: Haptic feedback for velocity.  
+![cad](https://github.com/user-attachments/assets/1e9318b9-b89d-4b28-9eae-7cae91b07c99)
 
 ### Zumo Car System (NUCLEO-L432KC)  
 - **IMU (GY-511)**: Measures yaw for PID-based motion control.  
@@ -45,6 +46,7 @@
 3. **Zumo Car**  
    - Executes PID-controlled motion using IMU yaw data.  
    - Reports velocity feedback to the playground system.  
+![diagram](https://github.com/user-attachments/assets/5d60b5c6-d284-4428-9f7e-ccc66177fe8c)
 
 ---
 
@@ -55,6 +57,7 @@
 - **Time Limit**: 30 seconds per round.  
 - **Scoring**: A robot scores only if it parks in a spot that matches its assigned color.  
 - **Warnings**: Players cannot touch robots, the arena, or game elements during play.  
+![real](https://github.com/user-attachments/assets/40f72aa2-bee4-4873-9991-cee585e48b1c)
 
 ---
 
